@@ -138,6 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sunny/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/xiaomi/sunny/proprietary/vendor/etc/dsi_panel_k7_38_0c_0a_fhdp_video_display_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_panel_k7_38_0c_0a_fhdp_video_display_mi.xml \
     vendor/xiaomi/sunny/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
+    vendor/xiaomi/sunny/proprietary/vendor/etc/faceunlock/resources.zip:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/resources.zip \
     vendor/xiaomi/sunny/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/sunny/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/sunny/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
@@ -734,6 +735,7 @@ PRODUCT_PACKAGES += \
     libssc \
     libssc_default_listener \
     libssd \
+    libstfaceunlockppl \
     libswregistrationalgo \
     libsystem_health_mon \
     libtime_genoff \
